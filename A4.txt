@@ -1,0 +1,250 @@
+Note: I failed to upload the whole vis zip file on gradescope and I can only successfully upload some of the images. But my teammate Weiqian successfully upload the file. If it's needed you can check her vis upload.
+team information：Qinghui Zhu, Weiqian Li
+
+- Training log
+    Epoch [1/80], Step [10/24], Loss: 12.4636
+    Epoch [1/80], Step [20/24], Loss: 5.1409
+    Pixel accuracy: 0.2061, Mean IoU: 0.0152, Frequency weighted IoU: 0.1149, Loss: 2.3032
+    Epoch [2/80], Step [10/24], Loss: 2.1940
+    Epoch [2/80], Step [20/24], Loss: 1.6908
+    Pixel accuracy: 0.5563, Mean IoU: 0.0529, Frequency weighted IoU: 0.3853, Loss: 1.5741
+    Epoch [3/80], Step [10/24], Loss: 1.4897
+    Epoch [3/80], Step [20/24], Loss: 1.3547
+    Pixel accuracy: 0.6063, Mean IoU: 0.0632, Frequency weighted IoU: 0.4350, Loss: 1.3870
+    Epoch [4/80], Step [10/24], Loss: 1.2261
+    Epoch [4/80], Step [20/24], Loss: 1.2268
+    Pixel accuracy: 0.6419, Mean IoU: 0.0759, Frequency weighted IoU: 0.4727, Loss: 1.2249
+    Epoch [5/80], Step [10/24], Loss: 1.1509
+    Epoch [5/80], Step [20/24], Loss: 1.0571
+    Pixel accuracy: 0.6557, Mean IoU: 0.0784, Frequency weighted IoU: 0.4878, Loss: 1.3245
+    Epoch [6/80], Step [10/24], Loss: 1.0431
+    Epoch [6/80], Step [20/24], Loss: 0.9742
+    Pixel accuracy: 0.6909, Mean IoU: 0.0946, Frequency weighted IoU: 0.5277, Loss: 1.0814
+    Epoch [7/80], Step [10/24], Loss: 1.0137
+    Epoch [7/80], Step [20/24], Loss: 0.9577
+    Pixel accuracy: 0.7379, Mean IoU: 0.1114, Frequency weighted IoU: 0.5847, Loss: 0.9308
+    Epoch [8/80], Step [10/24], Loss: 0.9270
+    Epoch [8/80], Step [20/24], Loss: 0.9469
+    Pixel accuracy: 0.6253, Mean IoU: 0.0934, Frequency weighted IoU: 0.4548, Loss: 1.1846
+    Epoch [9/80], Step [10/24], Loss: 0.9169
+    Epoch [9/80], Step [20/24], Loss: 1.1516
+    Pixel accuracy: 0.6823, Mean IoU: 0.1051, Frequency weighted IoU: 0.5178, Loss: 1.1849
+    Epoch [10/80], Step [10/24], Loss: 1.0350
+    Epoch [10/80], Step [20/24], Loss: 0.9871
+    Pixel accuracy: 0.7327, Mean IoU: 0.1095, Frequency weighted IoU: 0.5781, Loss: 0.9887
+    Epoch [11/80], Step [10/24], Loss: 0.9049
+    Epoch [11/80], Step [20/24], Loss: 0.8362
+    Pixel accuracy: 0.7329, Mean IoU: 0.1132, Frequency weighted IoU: 0.5784, Loss: 1.0346
+    Epoch [12/80], Step [10/24], Loss: 0.8703
+    Epoch [12/80], Step [20/24], Loss: 0.8160
+    Pixel accuracy: 0.7578, Mean IoU: 0.1340, Frequency weighted IoU: 0.6100, Loss: 0.8808
+    Epoch [13/80], Step [10/24], Loss: 0.8437
+    Epoch [13/80], Step [20/24], Loss: 0.8054
+    Pixel accuracy: 0.7641, Mean IoU: 0.1441, Frequency weighted IoU: 0.6183, Loss: 0.8489
+    Epoch [14/80], Step [10/24], Loss: 0.7826
+    Epoch [14/80], Step [20/24], Loss: 1.3498
+    Pixel accuracy: 0.6673, Mean IoU: 0.0876, Frequency weighted IoU: 0.5007, Loss: 1.3099
+    Epoch [15/80], Step [10/24], Loss: 1.2300
+    Epoch [15/80], Step [20/24], Loss: 1.0905
+    Pixel accuracy: 0.7009, Mean IoU: 0.1010, Frequency weighted IoU: 0.5395, Loss: 1.1319
+    Epoch [16/80], Step [10/24], Loss: 1.0403
+    Epoch [16/80], Step [20/24], Loss: 0.9289
+    Pixel accuracy: 0.7491, Mean IoU: 0.1253, Frequency weighted IoU: 0.5988, Loss: 0.9193
+    Epoch [17/80], Step [10/24], Loss: 0.8277
+    Epoch [17/80], Step [20/24], Loss: 0.8041
+    Pixel accuracy: 0.7774, Mean IoU: 0.1620, Frequency weighted IoU: 0.6359, Loss: 0.8113
+    Epoch [18/80], Step [10/24], Loss: 0.7419
+    Epoch [18/80], Step [20/24], Loss: 0.7551
+    Pixel accuracy: 0.7774, Mean IoU: 0.1555, Frequency weighted IoU: 0.6359, Loss: 0.8049
+    Epoch [19/80], Step [10/24], Loss: 0.7686
+    Epoch [19/80], Step [20/24], Loss: 0.6889
+    Pixel accuracy: 0.7966, Mean IoU: 0.1754, Frequency weighted IoU: 0.6619, Loss: 0.7434
+    Epoch [20/80], Step [10/24], Loss: 0.6816
+    Epoch [20/80], Step [20/24], Loss: 0.7399
+    Pixel accuracy: 0.7733, Mean IoU: 0.1638, Frequency weighted IoU: 0.6305, Loss: 0.8359
+    Epoch [21/80], Step [10/24], Loss: 0.7485
+    Epoch [21/80], Step [20/24], Loss: 0.6721
+    Pixel accuracy: 0.7729, Mean IoU: 0.1726, Frequency weighted IoU: 0.6299, Loss: 0.8152
+    Epoch [22/80], Step [10/24], Loss: 0.8157
+    Epoch [22/80], Step [20/24], Loss: 0.6827
+    Pixel accuracy: 0.8017, Mean IoU: 0.1856, Frequency weighted IoU: 0.6690, Loss: 0.7426
+    Epoch [23/80], Step [10/24], Loss: 0.6946
+    Epoch [23/80], Step [20/24], Loss: 0.6939
+    Pixel accuracy: 0.7943, Mean IoU: 0.1656, Frequency weighted IoU: 0.6588, Loss: 0.7662
+    Epoch [24/80], Step [10/24], Loss: 0.6075
+    Epoch [24/80], Step [20/24], Loss: 0.6081
+    Pixel accuracy: 0.7753, Mean IoU: 0.1810, Frequency weighted IoU: 0.6331, Loss: 0.8148
+    Epoch [25/80], Step [10/24], Loss: 0.6453
+    Epoch [25/80], Step [20/24], Loss: 0.6025
+    Pixel accuracy: 0.8197, Mean IoU: 0.2054, Frequency weighted IoU: 0.6945, Loss: 0.6461
+    Epoch [26/80], Step [10/24], Loss: 0.5887
+    Epoch [26/80], Step [20/24], Loss: 0.5535
+    Pixel accuracy: 0.8200, Mean IoU: 0.2212, Frequency weighted IoU: 0.6949, Loss: 0.6584
+    Epoch [27/80], Step [10/24], Loss: 0.5548
+    Epoch [27/80], Step [20/24], Loss: 0.5435
+    Pixel accuracy: 0.8261, Mean IoU: 0.2211, Frequency weighted IoU: 0.7038, Loss: 0.6260
+    Epoch [28/80], Step [10/24], Loss: 0.5261
+    Epoch [28/80], Step [20/24], Loss: 0.5143
+    Pixel accuracy: 0.8115, Mean IoU: 0.2188, Frequency weighted IoU: 0.6828, Loss: 0.6742
+    Epoch [29/80], Step [10/24], Loss: 0.5785
+    Epoch [29/80], Step [20/24], Loss: 0.5661
+    Pixel accuracy: 0.8138, Mean IoU: 0.2174, Frequency weighted IoU: 0.6860, Loss: 0.6749
+    Epoch [30/80], Step [10/24], Loss: 0.5880
+    Epoch [30/80], Step [20/24], Loss: 0.5531
+    Pixel accuracy: 0.8265, Mean IoU: 0.2267, Frequency weighted IoU: 0.7043, Loss: 0.6248
+    Epoch [31/80], Step [10/24], Loss: 0.5495
+    Epoch [31/80], Step [20/24], Loss: 0.5358
+    Pixel accuracy: 0.8200, Mean IoU: 0.2390, Frequency weighted IoU: 0.6949, Loss: 0.6329
+    Epoch [32/80], Step [10/24], Loss: 0.5489
+    Epoch [32/80], Step [20/24], Loss: 0.5158
+    Pixel accuracy: 0.7282, Mean IoU: 0.1546, Frequency weighted IoU: 0.5726, Loss: 1.4114
+    Epoch [33/80], Step [10/24], Loss: 0.7360
+    Epoch [33/80], Step [20/24], Loss: 0.6954
+    Pixel accuracy: 0.8083, Mean IoU: 0.2027, Frequency weighted IoU: 0.6782, Loss: 0.6901
+    Epoch [34/80], Step [10/24], Loss: 0.5776
+    Epoch [34/80], Step [20/24], Loss: 0.5470
+    Pixel accuracy: 0.8273, Mean IoU: 0.2364, Frequency weighted IoU: 0.7055, Loss: 0.6241
+    Epoch [35/80], Step [10/24], Loss: 0.5226
+    Epoch [35/80], Step [20/24], Loss: 0.5021
+    Pixel accuracy: 0.8137, Mean IoU: 0.2374, Frequency weighted IoU: 0.6860, Loss: 0.6355
+    Epoch [36/80], Step [10/24], Loss: 0.5723
+    Epoch [36/80], Step [20/24], Loss: 0.5132
+    Pixel accuracy: 0.8308, Mean IoU: 0.2395, Frequency weighted IoU: 0.7106, Loss: 0.6044
+    Epoch [37/80], Step [10/24], Loss: 0.5196
+    Epoch [37/80], Step [20/24], Loss: 0.4736
+    Pixel accuracy: 0.8450, Mean IoU: 0.2657, Frequency weighted IoU: 0.7316, Loss: 0.5518
+    Epoch [38/80], Step [10/24], Loss: 0.5074
+    Epoch [38/80], Step [20/24], Loss: 0.4784
+    Pixel accuracy: 0.8404, Mean IoU: 0.2678, Frequency weighted IoU: 0.7247, Loss: 0.5683
+    Epoch [39/80], Step [10/24], Loss: 0.4904
+    Epoch [39/80], Step [20/24], Loss: 0.4736
+    Pixel accuracy: 0.8385, Mean IoU: 0.2624, Frequency weighted IoU: 0.7220, Loss: 0.5804
+    Epoch [40/80], Step [10/24], Loss: 0.4562
+    Epoch [40/80], Step [20/24], Loss: 0.4597
+    Pixel accuracy: 0.8430, Mean IoU: 0.2778, Frequency weighted IoU: 0.7286, Loss: 0.5530
+    Epoch [41/80], Step [10/24], Loss: 0.4232
+    Epoch [41/80], Step [20/24], Loss: 0.4665
+    Pixel accuracy: 0.8300, Mean IoU: 0.2481, Frequency weighted IoU: 0.7094, Loss: 0.6237
+    Epoch [42/80], Step [10/24], Loss: 0.4626
+    Epoch [42/80], Step [20/24], Loss: 0.4506
+    Pixel accuracy: 0.8500, Mean IoU: 0.2786, Frequency weighted IoU: 0.7391, Loss: 0.5255
+    Epoch [43/80], Step [10/24], Loss: 0.4491
+    Epoch [43/80], Step [20/24], Loss: 0.4365
+    Pixel accuracy: 0.8432, Mean IoU: 0.2873, Frequency weighted IoU: 0.7289, Loss: 0.5443
+    Epoch [44/80], Step [10/24], Loss: 0.4166
+    Epoch [44/80], Step [20/24], Loss: 0.4346
+    Pixel accuracy: 0.8538, Mean IoU: 0.2845, Frequency weighted IoU: 0.7448, Loss: 0.5155
+    Epoch [45/80], Step [10/24], Loss: 0.4213
+    Epoch [45/80], Step [20/24], Loss: 0.4160
+    Pixel accuracy: 0.8525, Mean IoU: 0.2953, Frequency weighted IoU: 0.7430, Loss: 0.5245
+    Epoch [46/80], Step [10/24], Loss: 0.4013
+    Epoch [46/80], Step [20/24], Loss: 0.4126
+    Pixel accuracy: 0.8494, Mean IoU: 0.2964, Frequency weighted IoU: 0.7382, Loss: 0.5313
+    Epoch [47/80], Step [10/24], Loss: 0.4360
+    Epoch [47/80], Step [20/24], Loss: 0.4098
+    Pixel accuracy: 0.8394, Mean IoU: 0.2768, Frequency weighted IoU: 0.7232, Loss: 0.5727
+    Epoch [48/80], Step [10/24], Loss: 0.4475
+    Epoch [48/80], Step [20/24], Loss: 0.4126
+    Pixel accuracy: 0.8411, Mean IoU: 0.2869, Frequency weighted IoU: 0.7257, Loss: 0.5538
+    Epoch [49/80], Step [10/24], Loss: 0.4234
+    Epoch [49/80], Step [20/24], Loss: 0.4206
+    Pixel accuracy: 0.8559, Mean IoU: 0.3010, Frequency weighted IoU: 0.7481, Loss: 0.5075
+    Epoch [50/80], Step [10/24], Loss: 0.4320
+    Epoch [50/80], Step [20/24], Loss: 0.3981
+    Pixel accuracy: 0.8448, Mean IoU: 0.2880, Frequency weighted IoU: 0.7313, Loss: 0.5548
+    Epoch [51/80], Step [10/24], Loss: 0.4149
+    Epoch [51/80], Step [20/24], Loss: 0.3886
+    Pixel accuracy: 0.7858, Mean IoU: 0.2671, Frequency weighted IoU: 0.6472, Loss: 0.7015
+    Epoch [52/80], Step [10/24], Loss: 0.5946
+    Epoch [52/80], Step [20/24], Loss: 0.4564
+    Pixel accuracy: 0.8481, Mean IoU: 0.2915, Frequency weighted IoU: 0.7363, Loss: 0.5343
+    Epoch [53/80], Step [10/24], Loss: 0.4174
+    Epoch [53/80], Step [20/24], Loss: 0.3978
+    Pixel accuracy: 0.8584, Mean IoU: 0.3101, Frequency weighted IoU: 0.7519, Loss: 0.4991
+    Epoch [54/80], Step [10/24], Loss: 0.3839
+    Epoch [54/80], Step [20/24], Loss: 0.3886
+    Pixel accuracy: 0.8213, Mean IoU: 0.2788, Frequency weighted IoU: 0.6967, Loss: 0.6229
+    Epoch [55/80], Step [10/24], Loss: 0.4428
+    Epoch [55/80], Step [20/24], Loss: 0.4128
+    Pixel accuracy: 0.8509, Mean IoU: 0.3041, Frequency weighted IoU: 0.7404, Loss: 0.5305
+    Epoch [56/80], Step [10/24], Loss: 0.3910
+    Epoch [56/80], Step [20/24], Loss: 0.3936
+    Pixel accuracy: 0.8586, Mean IoU: 0.3104, Frequency weighted IoU: 0.7523, Loss: 0.5019
+    Epoch [57/80], Step [10/24], Loss: 0.3802
+    Epoch [57/80], Step [20/24], Loss: 0.3754
+    Pixel accuracy: 0.8542, Mean IoU: 0.3071, Frequency weighted IoU: 0.7455, Loss: 0.5143
+    Epoch [58/80], Step [10/24], Loss: 0.3707
+    Epoch [58/80], Step [20/24], Loss: 0.3715
+    Pixel accuracy: 0.8613, Mean IoU: 0.3212, Frequency weighted IoU: 0.7564, Loss: 0.5008
+    Epoch [59/80], Step [10/24], Loss: 0.3778
+    Epoch [59/80], Step [20/24], Loss: 0.3584
+    Pixel accuracy: 0.8611, Mean IoU: 0.3232, Frequency weighted IoU: 0.7561, Loss: 0.4928
+    Epoch [60/80], Step [10/24], Loss: 0.3767
+    Epoch [60/80], Step [20/24], Loss: 0.3854
+    Pixel accuracy: 0.8577, Mean IoU: 0.3214, Frequency weighted IoU: 0.7508, Loss: 0.4842
+    Epoch [61/80], Step [10/24], Loss: 0.3621
+    Epoch [61/80], Step [20/24], Loss: 0.3592
+    Pixel accuracy: 0.8616, Mean IoU: 0.3315, Frequency weighted IoU: 0.7568, Loss: 0.4909
+    Epoch [62/80], Step [10/24], Loss: 0.3471
+    Epoch [62/80], Step [20/24], Loss: 0.3537
+    Pixel accuracy: 0.8615, Mean IoU: 0.3333, Frequency weighted IoU: 0.7567, Loss: 0.4705
+    Epoch [63/80], Step [10/24], Loss: 0.3572
+    Epoch [63/80], Step [20/24], Loss: 0.3232
+    Pixel accuracy: 0.8631, Mean IoU: 0.3359, Frequency weighted IoU: 0.7591, Loss: 0.4828
+    Epoch [64/80], Step [10/24], Loss: 0.3403
+    Epoch [64/80], Step [20/24], Loss: 0.3583
+    Pixel accuracy: 0.8624, Mean IoU: 0.3318, Frequency weighted IoU: 0.7581, Loss: 0.4773
+    Epoch [65/80], Step [10/24], Loss: 0.3539
+    Epoch [65/80], Step [20/24], Loss: 0.3423
+    Pixel accuracy: 0.8567, Mean IoU: 0.3239, Frequency weighted IoU: 0.7493, Loss: 0.5108
+    Epoch [66/80], Step [10/24], Loss: 0.3657
+    Epoch [66/80], Step [20/24], Loss: 0.3376
+    Pixel accuracy: 0.8629, Mean IoU: 0.3280, Frequency weighted IoU: 0.7589, Loss: 0.4871
+    Epoch [67/80], Step [10/24], Loss: 0.3435
+    Epoch [67/80], Step [20/24], Loss: 0.3499
+    Pixel accuracy: 0.8631, Mean IoU: 0.3431, Frequency weighted IoU: 0.7592, Loss: 0.4727
+    Epoch [68/80], Step [10/24], Loss: 0.3487
+    Epoch [68/80], Step [20/24], Loss: 0.3520
+    Pixel accuracy: 0.8654, Mean IoU: 0.3275, Frequency weighted IoU: 0.7627, Loss: 0.4789
+    Epoch [69/80], Step [10/24], Loss: 0.3400
+    Epoch [69/80], Step [20/24], Loss: 0.3402
+    Pixel accuracy: 0.8625, Mean IoU: 0.3316, Frequency weighted IoU: 0.7582, Loss: 0.4849
+    Epoch [70/80], Step [10/24], Loss: 0.3277
+    Epoch [70/80], Step [20/24], Loss: 0.3207
+    Pixel accuracy: 0.8660, Mean IoU: 0.3353, Frequency weighted IoU: 0.7637, Loss: 0.4672
+    Epoch [71/80], Step [10/24], Loss: 0.3192
+    Epoch [71/80], Step [20/24], Loss: 0.3534
+    Pixel accuracy: 0.8637, Mean IoU: 0.3228, Frequency weighted IoU: 0.7601, Loss: 0.4725
+    Epoch [72/80], Step [10/24], Loss: 0.3279
+    Epoch [72/80], Step [20/24], Loss: 0.3381
+    Pixel accuracy: 0.8669, Mean IoU: 0.3512, Frequency weighted IoU: 0.7650, Loss: 0.4632
+    Epoch [73/80], Step [10/24], Loss: 0.3285
+    Epoch [73/80], Step [20/24], Loss: 0.3131
+    Pixel accuracy: 0.8641, Mean IoU: 0.3449, Frequency weighted IoU: 0.7607, Loss: 0.4757
+    Epoch [74/80], Step [10/24], Loss: 0.3100
+    Epoch [74/80], Step [20/24], Loss: 0.3399
+    Pixel accuracy: 0.8644, Mean IoU: 0.3410, Frequency weighted IoU: 0.7612, Loss: 0.4763
+    Epoch [75/80], Step [10/24], Loss: 0.3270
+    Epoch [75/80], Step [20/24], Loss: 0.3211
+    Pixel accuracy: 0.8661, Mean IoU: 0.3389, Frequency weighted IoU: 0.7639, Loss: 0.4715
+    Epoch [76/80], Step [10/24], Loss: 0.3396
+    Epoch [76/80], Step [20/24], Loss: 0.3618
+    Pixel accuracy: 0.8602, Mean IoU: 0.3441, Frequency weighted IoU: 0.7548, Loss: 0.4843
+    Epoch [77/80], Step [10/24], Loss: 0.3357
+    Epoch [77/80], Step [20/24], Loss: 0.3162
+    Pixel accuracy: 0.8643, Mean IoU: 0.3434, Frequency weighted IoU: 0.7610, Loss: 0.4685
+    Epoch [78/80], Step [10/24], Loss: 0.3195
+    Epoch [78/80], Step [20/24], Loss: 0.3233
+    Pixel accuracy: 0.8652, Mean IoU: 0.3425, Frequency weighted IoU: 0.7624, Loss: 0.4860
+    Epoch [79/80], Step [10/24], Loss: 0.3265
+    Epoch [79/80], Step [20/24], Loss: 0.3100
+    Pixel accuracy: 0.8629, Mean IoU: 0.3488, Frequency weighted IoU: 0.7589, Loss: 0.4771
+    Epoch [80/80], Step [10/24], Loss: 0.3275
+    Epoch [80/80], Step [20/24], Loss: 0.3285
+    Pixel accuracy: 0.8618, Mean IoU: 0.3336, Frequency weighted IoU: 0.7572, Loss: 0.4935
+    ====================
+    Finished Training, evaluating the model on the test set
+    Pixel accuracy: 0.8301, Mean IoU: 0.2955, Frequency weighted IoU: 0.7096, Loss: 0.6432
+    ====================
+    Visualizing the model on the test set, the results will be saved in the vis/ directory
+    100%|                    | 232/232 [01:17<00:00,  2.98it/s]
